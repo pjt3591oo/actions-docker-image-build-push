@@ -1,8 +1,5 @@
 FROM node:erbium-buster-slim
 
-LABEL "repository"="https://github.com/teichae/github-action"
-LABEL "maintainer"="tei.chae <tei.chae@kakao.com>"
-
 RUN set -eux ; \
     apt-get update -y; \
     apt-get install --no-install-recommends -y \
